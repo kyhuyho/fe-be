@@ -1,0 +1,12 @@
+.meal-recommend-list .swiper-initialized .swiper-wrapper .swiper-slide {
+  width: 250px !important;
+}
+.meal-recommend-list .swiper-initialized {
+  margin-left: 0;
+}
+.meal-recommend-item {
+  transition: all 0.3s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
